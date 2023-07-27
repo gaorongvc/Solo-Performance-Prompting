@@ -5,6 +5,7 @@
 ## Setup
 - Install dependencies
     ```
+    python -m venv venv
     pip install -r requirements.txt
     ```
 - Set up OpenAI API configs in `config_template.sh` and run `source config_template.sh` to set up the env variables (Note that we are using the Azure API in our experiments)

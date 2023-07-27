@@ -8,5 +8,8 @@ def get_task(name, file=None):
     elif name == 'codenames_collaborative':
         from .codenames_collaborative import CodenamesCollaborativeTask
         return CodenamesCollaborativeTask(file)
+    elif name == 'research':
+        from .research import ResearchTask
+        return ResearchTask(file)
     else:
         raise NotImplementedError
